@@ -1,0 +1,274 @@
+:root {
+  /* my color */
+  --shop-color-bg: rgb(245, 245, 245);
+  --shop-color-main: rgba(127, 43, 37, 1);
+  --shop-color-nav-bar: rgb(38, 38, 38, 0.85);
+  --shop-color-text: #313131;
+  --shop-color-title: #313131;
+  --shop-color-hover: #7f2b25;
+  --shop-color-button: rgb(199, 51, 40);
+  --shop-color-border: rgb(217, 217, 217);;
+  --shop-color-star-icon: rgb(236, 186, 85);
+  --home-category-bg-1: #faf1ff;
+  --home-category-bg-2: #faf4eb;
+  --home-category-bg-3: #f4e6e5;
+  --home-category-bg-4: #e6f2f4;
+  --home-category-bg-5: #fff6f6;
+  --home-coupon-bg: rgb(255, 255, 255);
+  --home-coupon-light: #ffffff;
+  --home-coupon-border: #f8d0d3;
+  --home-coupon-text: #333333;
+  --home-collection1-bg: #7f2b25;
+  --home-collection1-icon: #ffe501;
+  --home-collection1-color-text: #ffffff;
+  --home-categorize-bg: #dee4e9;
+  --home-categorize-color: #333333;
+  --home-collection2-bg: #adc4d2;
+  --home-collection2-title: #ff0000;
+  --home-collection3-bg: #e9dabe;
+  --home-see-all-btn-text: #fff;
+  --home-see-all-btn-before: rgb(255, 255, 255);
+  --footer-bg-color-1: #2a2a2a;
+  --footer-bg-color-copyright: #222222;
+  --footer-color-title: #ffffff;
+  --footer-color-text: #aaaaaa;
+  --footer-color-hover: #c73328;
+
+  /*  */
+  --bs-red: 224, 41, 41;
+  --bs-red-bold: 255, 1, 1;
+  --bg-black-footer: rgb(28, 30, 34);
+  --bs-gray-footer-license: rgba(197, 197, 197, 0.9);
+  --bs-gray-footer-border-top: rgba(255, 255, 255, 0.1); 
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-orange: #fd7e14;
+  --bs-yellow: rgb(255, 153, 0);
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #ffff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #F5F5F5;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #2a2a2a;;
+  --bs-primary-rgb: 127, 43, 37;
+  --bs-secondary-rgb: 192, 168, 132;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 34, 188, 238;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 255, 0, 0;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 42, 42, 42;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: "Noto Sans", sans-serif;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+  --a-color-hover-1: rgb(34, 188, 238);
+  --a-color-hover-2: rgb(255, 102, 0);
+  --a-color-hover-3: rgb(192, 168, 132);
+  --a-color-1: rgb(255, 255, 255);
+  --a-color-2: rgba(0, 0, 0, 0);
+  --a-color-3: rgba(0, 0, 0, 0);
+  --color-combination-9: #00141e;
+  --color-support-1: #001e28;
+  --color-support-2: #999;
+  --color-secondary-3: #0f2d37;
+  --color-secondary-1: #00141e;
+  --color-combination-9: #001e28;
+  --color-combination-8: #0f2d37;
+  --bg-green: #96d036;
+  --input-bg: #8ab73c;
+  --bg-grey: #f5f5f5;
+  --bg-grey-1: #e3e3e3;
+  --bg-grey-2: #c4c5c5;
+  --bg-sv: #121321;
+  --bg-sv-1: #181a2a;
+  --color-contact: #f4574c;
+  --btn-yellow: #ffc000;
+  --bg-footer: #181a2a;
+  --bg-cool-1: #59cca6;
+  --bg-cool-2: #91ad41;
+  --bg-cool-3: #e3b375;
+  --bg-cool-4: #ef7f94;
+  --bg-cool-5: #f5f6fb;
+  --bg-cool-btn: #27272f;
+  --cool-text: #8b8b99;
+  --cool-text-bg: #91ad41;
+  --text: #707070;
+  --lg-bg: #f2f7f8;
+  --lg-bg-2: #19b7f9;
+  --lg-footer: #1c2f3c;
+  --input: #f2f7f8;
+  --bg-res: #f7f4ef;
+  --res-text: #fec200;
+  --res-footer: #181818;
+  --poco-footer: #24272e;
+  --poco-text: #8b8e96;
+  --poco-btn: #eb3e32;
+  --pc-lh: #f7f7f7;
+  --pc-btn-1: #ffb416;
+  --pc-tab: #ed4e2e;
+  --pc-tab-1: #eaedf1;
+  --pc-text: #98a5c6;
+  --pc-text-1: #f07532;
+  --us-bg-1: #00c3ba;
+  --us-bg-2: #4582ff;
+  --us-bg-3: #f90;
+  --nt-text: #252525;
+  --nt-text-1: #888888;
+}
+
+/*--------------font-family and font siza ------------------*/
+/*----400,500,600,700----*/
+@font-face {
+  font-family: SceneProBold_500;
+  src: url(../font/ScenePro-Italic.woff2);
+}
+.font_scenepro_500 {
+  font-family: SceneProBold_500;
+}
+
+@font-face {
+  font-family: SceneProBold_700;
+  src: url(../font/ScenePro-Bold.woff2);
+}
+.font_scenepro_700 {
+  font-family: SceneProBold_700;
+}
+
+@font-face {
+  font-family: SceneProBold_900;
+  src: url(../font/ScenePro-BlackItalic.woff2);
+}
+.font_scenepro_900 {
+  font-family: SceneProBold_900;
+  font-size: 15px;
+}
+
+/* Reset CSS */
+a {
+  text-decoration: none;
+  color: var(--shop-color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--shop-color-title);
+  /* margin: 0 0 13px 0; */
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: unset;
+}
+
+.form-control:focus-visible, .form-control:focus {
+  border-color: #ced4da;
+  box-shadow: unset;
+  outline: unset;
+  outline-color: unset;
+}
+
+
+
+/*--------------padding anh margin ------------------*/
+.px_6 {
+  padding-left: 4vw !important;
+  padding-right: 4vw !important;
+}
+
+.fs_10 {
+  font-size: 0.625rem;
+}
+
+.fs_12 {
+  font-size: 0.75rem;
+}
+
+.fs_13 {
+  font-size: 0.813rem;
+}
+
+.fs_14 {
+  font-size: 0.875rem;
+}
+
+.fw_500 {
+  font-weight: 500 !important;
+}
+
+.color_main {
+  color: rgb(var(--shop-color-main));
+}
+
+.color_red_bold {
+  color: rgb(var(--bs-red-bold)) !important;
+}
+
+.bg_main {
+  background-color: var(--shop-color-main) !important;
+}
+
+.bg_red_bold {
+  background-color: rgb(var(--bs-red-bold)) !important;
+}
+
+.color_black {
+  color: rgb(var(--bs-black-rgb)) !important;
+}
+
+.bg_light_grey {
+  background-color: #F5F5F5;
+}
+
+.text_justify {
+  text-align: justify !important;
+}
+
+.shadow_primary {
+  box-shadow: 0px 15px 20px -15px #000;;
+}
+
+/* Width */
+.w-30 {
+  width: 30% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+/*-------------- thẻ menu ----------------------------*/
+.cursor {
+  cursor: pointer;
+}
